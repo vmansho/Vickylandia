@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+/* Typography */
+h1 {
+    position: absolute;
+    font-size: 90px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(114, 47, 55);
+    text-shadow:
+            4px 4px 0px rgba(0, 0, 0, 0.7),
+            -4px -4px 0px rgba(0, 0, 0, 0.7),
+            4px -4px 0px rgba(0, 0, 0, 0.7),
+            -4px 4px 0px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+h2 {
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    left: 10%;
+    color: rgb(70, 194, 255);
+    text-shadow:
+            4px 4px 0px rgba(0, 0, 0, 0.5),
+            -4px -4px 0px rgba(0, 0, 0, 0.7),
+            4px -4px 0px rgba(0, 0, 0, 0.7),
+            -4px 4px 0px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+h3 {
+    position: absolute;
+    font-size: 60px;
+    top: 45%;
+    left: 10%;
+    color: #9370DB;
+    text-shadow:
+            4px 4px 0px rgba(0, 0, 0, 0.5),
+            -4px -4px 0px rgba(0, 0, 0, 0.7),
+            4px -4px 0px rgba(0, 0, 0, 0.7),
+            -4px 4px 0px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+p {
+    font-size: 16px;
+    color: #222222;
+}
+
+/* Layout and Spacing */
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-p2 {
+    margin: 40px 0;
+}
+
+/* Header Style */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, img {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.tab-buttons {
+     display: flex;
+     margin-top: 20px;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: transparent;
+     z-index: 1000;
+ }
+
+.tab-buttons a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(15, 255, 80); /* Neon Green */
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, text-shadow 0.3s ease, color 0.3s ease;
+    margin: 0 50px;
+}
+
+.tab-buttons a:hover {
+    color: #1da1f2; /* Change to Blue when hovered */
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); /* Contour effect on hover */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.header {
+    background-image: url('abt_background.jpg');
+    background-size: cover; /* Ensures the image covers the header fully */
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Default behavior for scrolling */
+    background-position: center;
+    width: 100%;
+    height: 900px; /* Adjust height to your desired size */
+    position: relative;
+    z-index: 1;
+}
+
+.about-header {
+    width: 1350px;
+    height: 550px;
+    position: relative;
+    z-index: 2;
+    right: 58px;
+}
